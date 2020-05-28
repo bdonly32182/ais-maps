@@ -2,11 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Page from './component/Page'
+import MapEx from './Ver16/MapsExample'
+import {Provider} from 'react-redux'
+import { applyMiddleware,createStore}from 'redux'
+import ReduxThunk from 'redux-thunk'
+import reducer from './reducer'
 import * as serviceWorker from './serviceWorker';
-
+const store = createStore(reducer,{},applyMiddleware(ReduxThunk))
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <Page/>
+    </Provider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,91 @@
+{
+  "Coperate":[
+    {
+      "Cob_ID" : 1111111,
+      "cobid_title" : "techno1",
+      "subdetail" : [
+          {
+              "sub_ID" : 1, 
+              "sub_title" : "thing1",
+              "lat":13.663788,"lng":100.4370129,"Ownerinformation":{"Shopname":"best","ShopId":"xxxx","ShopPhone":"xxxxxxxxx","image":"/image/earn.jpg"}
+          },
+          {
+              "sub_ID" : 2,
+              "sub_title" : "thing2",
+              "lat":13.6637855,"lng":100.404182,"Ownerinformation":{"Shopname":"noty","ShopId":"sss","ShopPhone":"sssssssss","image":"/image/picProfile.jpg"}
+          }
+      ]
+  },
+  {
+      "Cob_ID" : 2222222,
+      "cobid_title" : "techno2",
+      "subdetail" : [
+          {
+              "sub_ID" : 1, 
+              "sub_title" : "thing1",
+              "lat":13.663788,"lng":100.4370129,"Ownerinformation":{"Shopname":"best","ShopId":"xxxx","ShopPhone":"xxxxxxxxx","image":"/image/earn.jpg"}
+
+          },
+          {
+              "sub_ID" : 2,
+              "sub_title" : "thing2",
+              "lat":13.6637855,"lng":100.404182,"Ownerinformation":{"Shopname":"noty","ShopId":"sss","ShopPhone":"sssssssss","image":"/image/picProfile.jpg"}
+          }
+      ]
+  },
+  {
+      "Cob_ID" : 3222222,
+      "cobid_title" : "techno3",
+      "subdetail" : [
+          {
+              "sub_ID" : 1, 
+              "sub_title" : "thing1",
+              "lat":13.663788,"lng":100.4370129,"Ownerinformation":{"Shopname":"best","ShopId":"xxxx","ShopPhone":"xxxxxxxxx","image":"/image/earn.jpg"}
+
+          },
+          {
+              "sub_ID" : 2,
+              "sub_title" : "thing2",
+              "lat":13.6637855,"lng":100.404182,"Ownerinformation":{"Shopname":"noty","ShopId":"sss","ShopPhone":"sssssssss","image":"/image/picProfile.jpg"}
+          }
+      ]
+  }
+  ],
+
+
+  "subCon":[
+    {"id":1,"lat":13.663788,"lng":100.4370129,"Ownerinformation":{"Shopname":"best","ShopId":"xxxx","ShopPhone":"xxxxxxxxx","image":"/image/earn.jpg"}},
+    {"id":2,"lat":13.6637855,"lng":100.404182,"Ownerinformation":{"Shopname":"noty","ShopId":"sss","ShopPhone":"sssssssss","image":"/image/picProfile.jpg"}},
+    {"id":1,"lat":13.6475758,"lng":100.4169132,"Ownerinformation":{"Shopname":"time","ShopId":"ttt","ShopPhone":"ttttttttt","image":"/image/mai.jpg"}}
+  ],
+
+  
+  "coorOFcop":[
+    {
+      "id":"1111111",
+      "thing":[
+        {"lat":13.6637855,"lng":100.404182,"Ownerinformation":{"Shopname":"noty","ShopId":"sss","ShopPhone":"sssssssss","image":"/image/picProfile.jpg"}},
+        {"lat":13.663788,"lng":100.4370129,"Ownerinformation":{"Shopname":"best","ShopId":"xxxx","ShopPhone":"xxxxxxxxx","image":"/image/earn.jpg"}}
+      ]
+    },
+    {
+      "id":"2222222",
+      "thing":[
+        {"lat":13.6637855,"lng":100.404182,"Ownerinformation":{"Shopname":"noty","ShopId":"sss","ShopPhone":"sssssssss","image":"/image/picProfile.jpg"}},
+        {"lat":13.663788,"lng":100.4370129,"Ownerinformation":{"Shopname":"best","ShopId":"xxxx","ShopPhone":"xxxxxxxxx","image":"/image/earn.jpg"}}
+      ]
+    },
+    {
+      "id":"3222222",
+      "thing":[
+        {"lat":13.6637855,"lng":100.404182,"Ownerinformation":{"Shopname":"noty","ShopId":"sss","ShopPhone":"sssssssss","image":"/image/picProfile.jpg"}},
+        {"lat":13.663788,"lng":100.4370129,"Ownerinformation":{"Shopname":"best","ShopId":"xxxx","ShopPhone":"xxxxxxxxx","image":"/image/earn.jpg"}}
+      ]
+    }
+
+  ]
+}
+
+
+
+
